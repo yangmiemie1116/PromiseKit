@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5B4EC300E7199406BA2B2AA6070092FA65DDD89",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : 0,
+    "F199912D5A490EE0A82CC09FE7E3849CE9F97176" : 0,
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : 0,
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56AAFBBA-78B4-481A-B5C1-BE0B1ABD4289",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "61C4B9E3B61282127C102C87B46B8CDE985974AE" : "PromiseKit\/Vendor\/Bolts\/",
+    "F199912D5A490EE0A82CC09FE7E3849CE9F97176" : "PromiseKit\/Vendor\/OMGHTTPURLRQ\/",
+    "F5B4EC300E7199406BA2B2AA6070092FA65DDD89" : "PromiseKit\/",
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : "PromiseKit\/Vendor\/OHHTTPStubs\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PromiseKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PromiseKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BoltsFramework\/Bolts-ObjC",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "61C4B9E3B61282127C102C87B46B8CDE985974AE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AliSoftware\/OHHTTPStubs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mxcl\/OMGHTTPURLRQ",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F199912D5A490EE0A82CC09FE7E3849CE9F97176"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mxcl\/PromiseKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5B4EC300E7199406BA2B2AA6070092FA65DDD89"
+    }
+  ]
+}
