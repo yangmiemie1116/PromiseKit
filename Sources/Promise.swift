@@ -61,7 +61,7 @@ public class Promise<T> {
      - SeeAlso: http://promisekit.org/wrapping-delegation/
      - SeeAlso: pending()
     */
-    public init(resolvers: @noescape (fulfill: (T) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
+    required public init(resolvers: @noescape (fulfill: (T) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
         var resolve: ((Resolution<T>) -> Void)!
         do {
             state = UnsealedState(resolver: &resolve)
@@ -148,7 +148,7 @@ public class Promise<T> {
     public class func pending() -> PendingTuple {
         var fulfill: ((T) -> Void)!
         var reject: ((ErrorProtocol) -> Void)!
-        let promise = Promise { fulfill = $0; reject = $1 }
+        let promise = self.init { fulfill = $0; reject = $1 }
         return (promise, fulfill, reject)
     }
 

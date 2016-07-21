@@ -40,8 +40,4 @@ public class NotificationPromise: Promise<[String: Any]> {
         promise.pending.promise.then { fulfill!($0.userInfo ?? [:]) }
         return (promise, promise.pending.fulfill)
     }
-
-    private override init(resolvers: @noescape (fulfill: ([String: Any]) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
-        super.init(resolvers: resolvers)
-    }
 }

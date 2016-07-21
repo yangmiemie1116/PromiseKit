@@ -67,8 +67,4 @@ public class PlacemarkPromise: Promise<CLPlacemark> {
         }
         return promise
     }
-
-    private override init(resolvers: @noescape (fulfill: (CLPlacemark) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
-        super.init(resolvers: resolvers)
-    }
 }

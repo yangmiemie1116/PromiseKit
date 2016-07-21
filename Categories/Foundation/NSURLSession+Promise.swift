@@ -52,7 +52,7 @@ extension URLSession {
     }
 }
 
-private func start(_ body: @autoclosure () throws -> URLRequest, session: URLSession = URLSession.shared()) -> URLDataPromise {
+private func start(_ body: @autoclosure () throws -> URLRequest, session: URLSession = URLSession.shared) -> URLDataPromise {
     do {
         var request = try body()
 
@@ -65,6 +65,6 @@ private func start(_ body: @autoclosure () throws -> URLRequest, session: URLSes
             task.resume()
         }
     } catch {
-        return URLDataPromise.resolved(error: error)
+        return URLDataPromise{ $1(error) }
     }
 }

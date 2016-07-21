@@ -163,8 +163,4 @@ public class LocationPromise: Promise<CLLocation> {
 
         return (promise, promise.fulfill, promise.reject)
     }
-
-    private override init(resolvers: @noescape (fulfill: (CLLocation) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
-        super.init(resolvers: resolvers)
-    }
 }

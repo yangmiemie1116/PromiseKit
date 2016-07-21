@@ -42,10 +42,6 @@ public class URLDataPromise: Promise<Data> {
         }
     }
 
-    private override init(resolvers: @noescape (fulfill: (Data) -> Void, reject: (ErrorProtocol) -> Void) throws -> Void) {
-        super.init(resolvers: resolvers)
-    }
-
     private var URLRequest: Foundation.URLRequest!
     private var URLResponse: Foundation.URLResponse!
 
